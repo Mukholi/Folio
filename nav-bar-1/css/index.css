@@ -1,0 +1,85 @@
+html, body {
+  margin-left: auto;
+  margin-right: auto;
+  background: peru;
+}
+
+.nav-bar-cont {
+  position: fixed;
+  bottom: 50px;
+  width: 100vw;
+  height: 2cm;
+}
+
+.nav-bar-cont .nav-bar {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-bar-cont .nav-bar .nav-bar-fg-cont {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.nav-bar-cont .nav-bar .nav-bar-fg-cont .nav-bar-fg {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  margin: 0 auto;
+}
+
+.nav-bar-cont .nav-bar .nav-bar-fg-cont .nav-bar-fg .nav-bar-item-cont {
+  position: relative;
+  display: flexbox;
+  width: 100%;
+  border: 1px solid black;
+  height: 100%;
+}
+
+.nav-bar-cont .nav-bar .nav-bar-bg {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+
+.nav-bar-cont .nav-bar .nav-bar-bg .nav-bar-bg-right {
+  position: relative;
+  width: auto;
+  height: 100%;
+  background: yellow;
+}
+
+.nav-bar-cont .nav-bar .nav-bar-bg .nav-bar-bg-left {
+  position: relative;
+  width: 0px;
+  height: 100%;
+  background: purple;
+}
+
+.nav-bar-cont .nav-bar .nav-bar-bg .nav-bar-bg-svg-cont {
+  position: relative;
+  height: 100%;
+  width: 0cm;
+  overflow: hidden;
+}
+/*# sourceMappingURL=index.css.map */
