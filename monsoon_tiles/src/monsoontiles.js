@@ -28,4 +28,4 @@ class MoonsoonGrid{
     }
 }
 
-let x = new MoonsoonGrid(grd,chld,20)
+let x = new MoonsoonGrid(grd,chld,40)
